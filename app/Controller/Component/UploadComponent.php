@@ -14,12 +14,13 @@ class UploadComponent extends Component
 {
     protected $options;
     
-    function __construct($options=null) {
+
+    function __construct( ComponentCollection $collection, $options = null ) {
 
         $this->UploadModel = ClassRegistry::init('Upload');
 
         $this->options = array(
-            'script_url' => '/JqueryFileUpload-CakePHP/uploads/handler/',
+            'script_url' => $options['script_url'],
             'upload_dir' => WWW_ROOT.'files/',
             'upload_url' => $this->getFullUrl().'/files/',
             'param_name' => 'files',

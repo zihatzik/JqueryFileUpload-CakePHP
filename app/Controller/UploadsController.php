@@ -7,7 +7,11 @@ class UploadsController extends AppController
 {
 	
 
-	public $components = array('Upload');
+	public $components = array(
+		'Upload' => array(
+			'script_url' => $this->request->webroot.'uploads/handler/' // This is the action where the files are processed
+		)
+	);
 
 	public function beforeFilter()
 	{
@@ -18,7 +22,6 @@ class UploadsController extends AppController
 
 	public function index()
 	{
-
 	}
 
 
