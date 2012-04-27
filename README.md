@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # CakeStrap v 0.1
 ---
 CakeStrap is a simple HTML5 Ready Bootstrap for CakePHP Applications.
@@ -43,8 +42,3 @@ PRIMARY KEY (id)
 Have a question or found a bug? Please create an issue [here][] on GitHub!
 [here]: https://github.com/hugodias/cakestrap/issues
 =======
-JqueryFileUpload-CakePHP
-========================
-
-JQuery File Upload for CakePHP
->>>>>>> 8302cebfe4a984dd496b6e246fea707dbccaa1c4
