@@ -1,19 +1,9 @@
-# CakeStrap v 0.1
+# JqueryFileUpload - CakePHP v 0.1
 ---
-CakeStrap is a simple HTML5 Ready Bootstrap for CakePHP Applications.
+Using the jQueryFileUpload from blueimp in CakePHP 2.1.x
 
-### Features
-##### Front-end
-1. Responsive Web Design
-2. HTML5 Boilerplate
-3. RequireJS
-4. Modernizr
-5. Twitter Bootstrap
-
-##### Back-end
-1. CakePHP 2.0.x Security Authentication
-2. Users CRUD
-
+You can find the documentation [here][fileupload]
+[fileupload]: https://github.com/blueimp/jQuery-File-Upload
 
 ## Quick start
 
@@ -33,12 +23,18 @@ PRIMARY KEY (id)
 </pre>
 
 
+- Create a table named `uploads` in your database with the following structure:
+
+<pre>CREATE TABLE uploads (
+id int(11) NOT NULL AUTO_INCREMENT,
+name varchar(255) NOT NULL,
+size int(11) NOT NULL,
+PRIMARY KEY (id)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
+</pre>
+
+
 - Open the file `app/Config/database.php` and change the database information
 - Change the permissions of the folder `app/tmp` to 777 ( and all the folders inside of it )
 
 
-## Questions / Bugs
-
-Have a question or found a bug? Please create an issue [here][] on GitHub!
-[here]: https://github.com/hugodias/cakestrap/issues
-=======
