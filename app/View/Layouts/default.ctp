@@ -40,7 +40,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <?php echo $this->Html->link('CakeTrap',"/",array('class' => 'brand')) ?>
+          <?php echo $this->Html->link('jQueryFileUpload CakePHP',"/",array('class' => 'brand')) ?>
           <div class="nav-collapse">
             <ul class="nav">
               <?php if( AuthComponent::user('id') ) { ?>
@@ -76,7 +76,7 @@
       <hr>
 
       <footer>
-        <p>&copy; Company 2012</p>
+        <p>&copy; jQueryFileUpload CakePHP 2.1.x 2012</p>
       </footer>
 
     </div> <!-- /container -->
