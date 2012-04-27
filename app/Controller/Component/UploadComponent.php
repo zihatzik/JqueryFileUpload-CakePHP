@@ -20,7 +20,7 @@ class UploadComponent extends Component
         $this->UploadModel = ClassRegistry::init('Upload');
 
         $this->options = array(
-            'script_url' => $options['script_url'],
+            'script_url' => Router::url('/', true).'uploads/handler',
             'upload_dir' => WWW_ROOT.'files/',
             'upload_url' => $this->getFullUrl().'/files/',
             'param_name' => 'files',
