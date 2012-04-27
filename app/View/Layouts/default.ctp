@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title>CakeStrap v0.1</title>
+	<title>jQueryFileUpload for CakePHP 2.1.x</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
