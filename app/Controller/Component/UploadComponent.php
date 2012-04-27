@@ -31,7 +31,7 @@ class UploadComponent extends Component
             // take precedence over the following max_file_size setting:
             'max_file_size' => null,
             'min_file_size' => 1,
-            'accept_file_types' => '/.+$/i',
+            'accept_file_types' => '/.+$/i', // For only accept images use this: ([^\s]+(\.(?i)(jpg|png|gif|bmp))$)
             'max_number_of_files' => null,
             // Set the following option to false to enable resumable uploads:
             'discard_aborted_uploads' => true,
@@ -58,9 +58,9 @@ class UploadComponent extends Component
                 // )
             )
         );
-        // if ($options) {
-        //     $this->options = array_replace_recursive($this->options, $options);
-        // }
+        if ($options) {
+            $this->options = array_replace_recursive($this->options, $options);
+        }
     }
 
     public function getFullUrl() {
