@@ -5,6 +5,11 @@ Using the jQueryFileUpload from blueimp in CakePHP 2.1.x
 You can find the documentation [here][fileupload]
 [fileupload]: https://github.com/blueimp/jQuery-File-Upload
 
+
+#### [Demo][]
+[Demo]: http://blueimp.github.com/jQuery-File-Upload/
+
+
 ## Quick start
 
 - Create a table named `users` in your database with the following structure:
